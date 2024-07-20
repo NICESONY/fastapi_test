@@ -56,3 +56,5 @@ class Model(BaseModel):
 def send(data : Model):
     print(data)
     return "전송완료"
+
+    # test
