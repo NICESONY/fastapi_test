@@ -16,28 +16,11 @@ app.mount("/css", StaticFiles(directory="css"), name="css")
 app.mount("/js", StaticFiles(directory="js"), name="js")
 
 
+
 @app.get("/")
-def index():
+def resume():
    return FileResponse("index.html")
 
-
-@app.get("/contact")
-def contact():
-   return FileResponse("contact.html")
-
-
-
-
-@app.get("/projects")
-def projects():
-   return FileResponse("projects.html")
-
-
-
-
-@app.get("/resume")
-def resume():
-   return FileResponse("resume.html")
 
 
 
@@ -57,4 +40,4 @@ def send(data : Model):
     print(data)
     return "전송완료"
 
-    # test
+    
