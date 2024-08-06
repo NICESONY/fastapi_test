@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Moirai+One&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+
     <!--css-->
     <link rel="stylesheet" href="/css/setup.css">
     <link rel="stylesheet" href="/css/headerhome.css">
@@ -21,10 +24,6 @@
     <script src="/js/swiper.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <link rel="stylesheet" as="style" crossorigin
-    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
-
-
 
 </head>
 
@@ -35,10 +34,10 @@
         <header>
             <div class="headerbox">
                 <div class="headerlogo">
-                    <a href="#"><img src="/Logo/logo.svg"></a>
+                    <a href="/"><img src="/Logo/logo.svg"></a>
                 </div>
                 <div class="researchicon">
-                    <a href="#"><img src="/icon/search-sm.svg"></a>
+                    <a href="#"><img src="/assets/header/search-sm.svg"></a>
                 </div>
             </div>
         </header>
@@ -47,7 +46,7 @@
                 <!---contentbox는 전체적인 넓이를 맞추기 위해 생성. -->
 
                 <div class="todayplace">
-                    <div class="statecontent">
+                    <div class="statecontent">  
                         <h3>오늘 다녀온 장소를 기록해볼까요?</h3>
                         <p>지현님의 소중한 장소를 소개해주세요!</p>
                         <img src="/assets/img/photo_illust/recorde/home/mainimg.svg">
@@ -146,7 +145,7 @@
                 <div class="Recordlocation">
                     <img src="/icon/marker-pin-01recordbox.svg">
                     <h5>대전</h5>
-                    <img src="/assets/img/icon/recorde/home/chevron-left.svg">
+                    <img src=".assets/img/icon/recorde/home/chevron-left.svg">
                 </div>
             </div>
             <div class="line"></div>
@@ -278,38 +277,37 @@
             </div>
         </div>
         <footer></footer>
-          <!-- 하단메뉴바 -->
-          <div class="nav">
+        <div class="nav">
             <div class="nav-details">
                 <div class="icon">
                     <a id="navhome" href="/">
-                        <div class="section_nav"><img src="./icon/home-line.svg" alt="Image 1"></div>
+                        <div class="section_nav"><img src="/assets/nav/home-line.svg" alt="Image 1"></div>
                         <p>홈</p>
                     </a>
                 </div>
                 <div class="icon">
                     <a id="navgood" href="/recomedation">
-                        <div class="section_nav"><img src="icon/navigation-pointer-01.svg" alt="Image 1"></div>
+                        <div class="section_nav"><img src="/assets/nav/navigation-pointer-01.svg" alt="Image 1"></div>
                         <p>추천</p>
                     </a>
                 </div>
                 <div class="icon">
                     <a id="navrecorde" href="/recordhome">
-                        <div class="section_nav"><img src="icon/pencil-02.svg" alt="Image 1">
+                        <div class="section_nav"><img src="/assets/nav/pencil-02.svg" alt="Image 1">
                         </div>
                         <p>기록</p>
                     </a>
                 </div>
                 <div class="icon">
-                    <a id="navticket" href="/">
-                        <div class="section_nav"><img src="icon/ticket-01.svg" alt="Image 1">
+                    <a id="navticket" href="/ticket">
+                        <div class="section_nav"><img src="/assets/nav//ticket-01.svg" alt="Image 1">
                         </div>
                         <p>예약</p>
                     </a>
                 </div>
                 <div class="icon">
-                    <a id="navmypage" href="/">
-                        <div class="section_nav"><img src="icon/user-03.svg" alt="Image 1">
+                    <a id="navmypage" href="/mypage">
+                        <div class="section_nav"><img src="/assets/nav/user-03.svg" alt="Image 1">
                         </div>
                         <p>설정</p>
                     </a>
@@ -317,11 +315,6 @@
             </div>
         </div>
     </div>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
 </body>

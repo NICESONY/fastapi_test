@@ -28,8 +28,8 @@ def HOME():
 
 
 
-# 2. 추천
-@app.get("/")
+# 2. 추천(완료)
+@app.get("/recomedation")
 def recomedation():
    return FileResponse("recomedation.html")
 
@@ -43,25 +43,25 @@ def recordhome():
 
 
 # 4. 기록 디테일(완료)
-@app.get("/")
+@app.get("/record_update")
 def record_update():
    return FileResponse("record_update.html")
 
 
 
 # 5. 기록 업데이트(완료)
-@app.get("/")
+@app.get("/Writingrecord")
 def Writingrecord():
    return FileResponse("Writingrecord.html")
 
 
-# 6. 티셋(1)
+# 6. 티셋(1)(완료)
 @app.get("/ticket")
 def resume():
    return FileResponse("ticket.html")
 
 
-# 7. 티셋(2)
+# 7. 티셋(2)(완료)
 @app.get("/ticketsave")
 def resume():
    return FileResponse("ticketsave.html")
@@ -69,7 +69,7 @@ def resume():
 
 
 
-# 8. 마이 페이지(사진 추가)
+# 8. 마이 페이지(사진 추가)(완료)
 @app.get("/mypage")
 def resume():
    return FileResponse("mypage.html")
